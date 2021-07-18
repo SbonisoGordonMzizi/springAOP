@@ -13,4 +13,21 @@ public class MyService {
     }
     //perform logging after executing business logic
 
+    //perform logging before executing business logic
+    public void doSomethingOne(){
+
+        System.out.println("Doing business Logic One >>>>> ");
+
+    }
+    //perform logging after executing business logic
+    //perform logging before executing business logic
+    public void doSomethingtwo(){
+
+        System.out.println("Doing business Logic Two>>>>> ");
+
+    }
+    //perform logging after executing business logic
+
+
+
 }
